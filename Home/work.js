@@ -1,7 +1,7 @@
 /**
  * 
  */
-setInterval(showDate,86400000);
+
 function showDate() {
   var d = new Date();
   var year = d.getFullYear();
@@ -29,6 +29,7 @@ function showTime() {
   if (hour == 0) {
     hour = 12;
     am_pm = "AM";
+    showDate();
   }
   
   min= min < 10 ? "0" + min : min;
