@@ -29,7 +29,7 @@ function showTime() {
   sec = sec < 10 ? "0" + sec : sec;
   var currentTime = hour + ":" + min + ":" + sec + am_pm;
   
-  document.getElementBy Id("clock").innerHTML = currentTime;
+  document.getElementById("clock").innerHTML = currentTime;
 }
 showTime();
 
