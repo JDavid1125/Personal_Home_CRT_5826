@@ -4,9 +4,14 @@
 	padding: 0;
 	margin: 0;
 }
+
 @font-face {
-	font-family: Term;
-	src: url(../Home/Font/_decterm.ttf);
+    font-family: 'Term';
+    src: url('../Home/Font/_decterm-webfont.woff2') format('woff2'),
+         url('../Home/Font/_decterm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 html{
@@ -14,7 +19,7 @@ html{
 }
 
 body{
-	font-family: Term;
+	font-family: 'Term';
 	color: white;
 }
 
