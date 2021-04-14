@@ -4,13 +4,17 @@
 	padding: 0;
 	margin: 0;
 }
+@font-face {
+	font-family: Term;
+	src: (../Home/Font/_decterm.ttf);
+}
 
 html{
 	background-color:black;
 }
 
 body{
-	font-family: Verdana;
+	font-family: Term;
 	color: white;
 }
 
