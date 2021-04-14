@@ -6,7 +6,7 @@
 }
 @font-face {
 	font-family: Term;
-	src: url("../Home/Font/_decterm.ttf");
+	src: url(../Home/Font/_decterm.ttf);
 }
 
 html{
